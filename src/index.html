@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="./styles.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+</head>
+<body id="mainpage">
+<div id="main">
+    <nav class="nav__bar" id="myLinks">
+        <div><a href="#main">Home</a></div>
+        <div><a href="#about">About me</a></div>
+        <div><a href="#skills">Skills</a></div>
+        <div><a href="#portfolio">Portfolio</a></div>
+        <div><a href="#contact">Contacts</a></div>
+        <div class="article__vertical" id="vertical">RU|ENG</div>
+    </nav>
+    <hr id="line">
+    <div class="wrapper wrapper__article">
+        <div class="article__name"><h1>Denis <br>Novik</h1></div>
+        <div class="article__item">UX|Ui designer<br>24 years old, Minsk</div>
+        <div class="article__vertical">RU|ENG</div>
+        <figure class="uglyman"><img src="../images/uglyman.png" alt="uglyman"></figure>
+    </div>
+    <figure class="niceman"><img src="./images/niceman.png" alt="niceman"></figure>
+    <a href="javascript:void(0);" class="article__icon" onclick="navBarItem()"><div class="hamb_menu">
+        <div class="hamb_item"></div>
+        <div class="hamb_item"></div>
+        <div class="hamb_item"></div>
+    </div></a>
+</div>
+<div class="wrapper" id="about">
+    <h1>About me</h1>
+    <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>I'm interested in design and everything connected with it.</p>
+    <p>I'm studying at courses "Web and mobile design<br>interfaces" in IT-Academy.</p>
+    <p>Ready to implement excellent projects<br>with wonderful people.</p>
+</div>
+<div class="wrapper" id="skills">
+    <h1>Skills</h1>
+    <p>I work in such programs as</p>
+    <div>
+        <figure><img src="../images/Group.png" alt="Abobe Photoshop logo"><figcaption>Abobe<br>Photoshop</figcaption><img src="../images/stars4.png" alt="stars"></figure>
+        <figure><img src="../images/Group%202.png" alt="Abobe Illustrator logo"><figcaption>Abobe<br>Illustrator</figcaption><img src="../images/stars3.png" alt="stars"></figure>
+        <figure><img src="../images/AE.png" alt="Abobe After Effects logo"><figcaption>Abobe<br>After Effects</figcaption><img src="../images/stars4.png" alt="stars"></figure>
+        <figure><img src="../images/Figma.png" alt="Figma logo"><figcaption class="mrpadd">Figma</figcaption><img src="../images/stars4.png" alt="stars"></figure>
+    </div>
+</div>
+<div class="wrapper" id="portfolio">
+    <h1>Portfolio</h1>
+    <div class="portfolio__item">
+        <div class="fashion__content">
+            <div class="content__item">
+                <div class="hamb_menu hb">
+                    <div class="hamb_item"></div>
+                    <div class="hamb_item"></div>
+                    <div class="hamb_item"></div>
+                </div>
+                <h2><strong>WOMAN |<br>MAN<br>CAMPAING<br>SALE</strong></h2>
+            </div>
+            <div class="content__item">
+                <h2>NEW<br>COLLECTION</h2>
+                <hr class="content__hr">
+            </div>
+            <div class="content__item">
+                <h4 class="search">SEARCH</h4>
+                <hr class="content__hr_last">
+                <div>
+                    <h4>LEVI'S<br>JACKET JEANS TRUCKER</h4>
+                    <p>Levi's denim jacket is<br>made of cotton denim<br>with faux fur insulation.<br>Model direct<br>silhouette.</p>
+                </div>
+                <h5 class="read">Read</h5>
+                <img class="arrow" src="../images/arrow.png">
+            </div>
+        </div>
+        <div class="nav__barr">
+            <p class="nav__items">INSTAGRAM</p>
+            <p class="nav__items">FACEBOOK</p>
+            <p class="nav__items">TWITTER</p>
+            <p class="nav__items">PINTEREST</p>
+            <p class="nav__items">YOUTUBE</p>
+        </div>
+    </div>
+    <p class="portf">Online fashion store - Homepage</p>
+    <div class="portfolio__item dirrow">
+        <div class="nav__sport">
+            <div class="nav__item"><h5>Reebok</h5></div>
+            <div class="nav__item"><p>running</p></div>
+            <div class="nav__item"><p>style</p></div>
+            <div class="nav__item"><p>crossfit</p></div>
+        </div>
+        <div class="rebok"><h1>Reebok</h1><div id="circle"></div></div>
+        <div class="four_square">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div class="dude">
+            <img class="leg" src="../images/leg1.jpg">
+        </div>
+        <div class="vert">
+            <div class="sport_vertical"><p>shop</p></div>
+            <div class="sport_vertical"><p>Fb In Vk</p></div>
+        </div>
+    </div>
+    <p class="portf">Reebok store - Concept</p>
+    <div class="portfolio__item">
+        <div class="braun__nav">
+            <div class="hamb_menu hb braun__nav_item">
+                <div class="hamb_item"></div>
+                <div class="hamb_item"></div>
+                <div class="hamb_item"></div>
+            </div>
+            <h3 class="braun__nav_item">brAun</h3>
+            <p class="braun__nav_item">Shop</p>
+        </div>
+        <div class="braun__page">
+            <div class="braun__page_text">
+                <p class="hilevel">Braun<br>portable<br>marko<br>T52</p>
+                <img class="small" src="../images/arrow.png">
+                <p class="data">1967</p>
+            </div>
+            <div class="braun__page_photo">
+                <img src="../images/braunphoto.png">
+            </div>
+        </div>
+    </div>
+    <p class="portf">Braun landing page - Concept</p>
+</div>
+<div class="wrapper wrapper__contact" id="contact">
+    <h1>Contacts</h1>
+    <p>Want to know more or just chat?<br>You are welcome!</p>
+    <img src="../images/button.png" alt="button">
+    <div class="contact__logs">
+        <img src="../images/instlogo.png" alt="LinkedIn logo">
+        <img src="../images/inlogo.png" alt="instagram logo">
+        <img src="../images/behancelogo.png" alt="behance logo">
+        <img src="../images/dribblelogo.png" alt="drible logo">
+    </div>
+    <p class="progs">Like me on<br>LinkedIn, Instagram, Behance, Dribble</p>
+</div>
+<script src="./script.min.js"></script>
+</body>
+</html>
