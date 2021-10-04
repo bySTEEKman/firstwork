@@ -47,10 +47,6 @@ img {
     margin: 20px 0 20px;
 }
 
-.mrpadd {
-    padding-bottom: 40px;
-}
-
 #main {
     display: block;
     nav {
@@ -112,11 +108,14 @@ img {
     div {
         @extend %flexcenter;
         flex-wrap: wrap;
-        img {
+        figure {
             text-align: center;
             color: dimgray;
             width: 250px;
             padding-bottom: 20px;
+            .mrpadd {
+                padding-bottom: 26px;
+            }
         }
     }
 }
@@ -164,7 +163,7 @@ img {
             .content__item:nth-child(2) {
                 display: flex;
                 flex-wrap: wrap;
-                background-image: url("../../images/uglyman.png");
+                background-image: url("../assets/images/uglyman.png");
                 place-content: center flex-start;
                 max-height: 450px;
                 width: 30%;
@@ -268,6 +267,9 @@ img {
             .dude {
                 display: flex;
                 min-width: 35%;
+                img{
+                    width: 100%;
+                }
             }
             .vert {
                 font-size: 14px;
@@ -401,11 +403,11 @@ img {
             .sport__content{
                 .rebok{
                     #circle{
-                        left: 153.5px;
+                        left: 122px;
                     }
                 }
                 .four_square{
-                    top: 90px;
+                    top: 160px;
                     left: 13px;
                     height: 14px;
                     width: 14px;
@@ -447,6 +449,7 @@ img {
             .article__vertical {
                 display: block;
                 position: absolute;
+                writing-mode: vertical-lr;
                 right: 5%;
                 top: 30%;
             }
